@@ -9,4 +9,3 @@ plot.pie(numlist, labels=namelist, autopct='%.2f%%', colors=colorlist,
     	explode = explodelist, startangle = 90)
 plot.axis('equal')
 plot.savefig('Piechart.png')
-print('script complete')
